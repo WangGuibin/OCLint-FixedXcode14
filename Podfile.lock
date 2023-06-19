@@ -1,0 +1,16 @@
+PODS:
+  - YYModel (1.0.4)
+
+DEPENDENCIES:
+  - YYModel
+
+SPEC REPOS:
+  trunk:
+    - YYModel
+
+SPEC CHECKSUMS:
+  YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
+
+PODFILE CHECKSUM: a8d40d3e98a4a7ce83ed24e535f5b0f573072c81
+
+COCOAPODS: 1.12.0

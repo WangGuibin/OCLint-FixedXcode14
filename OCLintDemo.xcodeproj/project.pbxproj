@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A7346ACF5384793F0CA696C /* libPods-OCLintDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D8A67CA611C9DAC3A366DF79 /* libPods-OCLintDemo.a */; };
+		CA6B15F62A407422005A63EE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA6B15F52A407422005A63EE /* AppDelegate.m */; };
+		CA6B15FC2A407422005A63EE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA6B15FB2A407422005A63EE /* ViewController.m */; };
+		CA6B15FF2A407422005A63EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA6B15FD2A407422005A63EE /* Main.storyboard */; };
+		CA6B16012A407427005A63EE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA6B16002A407427005A63EE /* Assets.xcassets */; };
+		CA6B16042A407427005A63EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA6B16022A407427005A63EE /* LaunchScreen.storyboard */; };
+		CA6B16072A407427005A63EE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CA6B16062A407427005A63EE /* main.m */; };
+		CA6B160F2A40744A005A63EE /* APIManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CA6B160E2A40744A005A63EE /* APIManager.m */; };
+		CA6B16142A4074F1005A63EE /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = CA6B16132A4074F1005A63EE /* Person.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1B2D24C8444A061B6A545382 /* Pods-OCLintDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCLintDemo.debug.xcconfig"; path = "Target Support Files/Pods-OCLintDemo/Pods-OCLintDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		A7A4876AA47FA9E0F6CEC426 /* Pods-OCLintDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OCLintDemo.release.xcconfig"; path = "Target Support Files/Pods-OCLintDemo/Pods-OCLintDemo.release.xcconfig"; sourceTree = "<group>"; };
+		CA6B15F12A407422005A63EE /* OCLintDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OCLintDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA6B15F42A407422005A63EE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CA6B15F52A407422005A63EE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CA6B15FA2A407422005A63EE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CA6B15FB2A407422005A63EE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CA6B15FE2A407422005A63EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CA6B16002A407427005A63EE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA6B16032A407427005A63EE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CA6B16052A407427005A63EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA6B16062A407427005A63EE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CA6B160D2A40744A005A63EE /* APIManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APIManager.h; sourceTree = "<group>"; };
+		CA6B160E2A40744A005A63EE /* APIManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APIManager.m; sourceTree = "<group>"; };
+		CA6B16122A4074F1005A63EE /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		CA6B16132A4074F1005A63EE /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		CA6B161C2A40A6CF005A63EE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CA6B161E2A40A6D9005A63EE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D8A67CA611C9DAC3A366DF79 /* libPods-OCLintDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OCLintDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA6B15EE2A407422005A63EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A7346ACF5384793F0CA696C /* libPods-OCLintDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7D5CEA44A5432DE5859C8321 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CA6B161E2A40A6D9005A63EE /* Foundation.framework */,
+				CA6B161C2A40A6CF005A63EE /* UIKit.framework */,
+				D8A67CA611C9DAC3A366DF79 /* libPods-OCLintDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9000DC14A0FED23BBD140905 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1B2D24C8444A061B6A545382 /* Pods-OCLintDemo.debug.xcconfig */,
+				A7A4876AA47FA9E0F6CEC426 /* Pods-OCLintDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		CA6B15E82A407422005A63EE = {
+			isa = PBXGroup;
+			children = (
+				CA6B15F32A407422005A63EE /* OCLintDemo */,
+				CA6B15F22A407422005A63EE /* Products */,
+				9000DC14A0FED23BBD140905 /* Pods */,
+				7D5CEA44A5432DE5859C8321 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CA6B15F22A407422005A63EE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA6B15F12A407422005A63EE /* OCLintDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA6B15F32A407422005A63EE /* OCLintDemo */ = {
+			isa = PBXGroup;
+			children = (
+				CA6B16112A4074DD005A63EE /* Other */,
+				CA6B16102A4074D7005A63EE /* SDK */,
+				CA6B15F42A407422005A63EE /* AppDelegate.h */,
+				CA6B15F52A407422005A63EE /* AppDelegate.m */,
+				CA6B15FA2A407422005A63EE /* ViewController.h */,
+				CA6B15FB2A407422005A63EE /* ViewController.m */,
+				CA6B15FD2A407422005A63EE /* Main.storyboard */,
+				CA6B16002A407427005A63EE /* Assets.xcassets */,
+				CA6B16022A407427005A63EE /* LaunchScreen.storyboard */,
+				CA6B16052A407427005A63EE /* Info.plist */,
+				CA6B16062A407427005A63EE /* main.m */,
+			);
+			path = OCLintDemo;
+			sourceTree = "<group>";
+		};
+		CA6B16102A4074D7005A63EE /* SDK */ = {
+			isa = PBXGroup;
+			children = (
+				CA6B160D2A40744A005A63EE /* APIManager.h */,
+				CA6B160E2A40744A005A63EE /* APIManager.m */,
+			);
+			path = SDK;
+			sourceTree = "<group>";
+		};
+		CA6B16112A4074DD005A63EE /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				CA6B16122A4074F1005A63EE /* Person.h */,
+				CA6B16132A4074F1005A63EE /* Person.m */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA6B15F02A407422005A63EE /* OCLintDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA6B160A2A407427005A63EE /* Build configuration list for PBXNativeTarget "OCLintDemo" */;
+			buildPhases = (
+				DD71A339AA5DD174DB0B0192 /* [CP] Check Pods Manifest.lock */,
+				CA6B15ED2A407422005A63EE /* Sources */,
+				CA6B15EE2A407422005A63EE /* Frameworks */,
+				CA6B15EF2A407422005A63EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OCLintDemo;
+			productName = OCLintDemo;
+			productReference = CA6B15F12A407422005A63EE /* OCLintDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA6B15E92A407422005A63EE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					CA6B15F02A407422005A63EE = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = CA6B15EC2A407422005A63EE /* Build configuration list for PBXProject "OCLintDemo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CA6B15E82A407422005A63EE;
+			productRefGroup = CA6B15F22A407422005A63EE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA6B15F02A407422005A63EE /* OCLintDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA6B15EF2A407422005A63EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA6B16042A407427005A63EE /* LaunchScreen.storyboard in Resources */,
+				CA6B16012A407427005A63EE /* Assets.xcassets in Resources */,
+				CA6B15FF2A407422005A63EE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DD71A339AA5DD174DB0B0192 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OCLintDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA6B15ED2A407422005A63EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA6B16142A4074F1005A63EE /* Person.m in Sources */,
+				CA6B15FC2A407422005A63EE /* ViewController.m in Sources */,
+				CA6B15F62A407422005A63EE /* AppDelegate.m in Sources */,
+				CA6B16072A407427005A63EE /* main.m in Sources */,
+				CA6B160F2A40744A005A63EE /* APIManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CA6B15FD2A407422005A63EE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA6B15FE2A407422005A63EE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CA6B16022A407427005A63EE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA6B16032A407427005A63EE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CA6B16082A407427005A63EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMPILER_INDEX_STORE_ENABLE = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CA6B16092A407427005A63EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMPILER_INDEX_STORE_ENABLE = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA6B160B2A407427005A63EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B2D24C8444A061B6A545382 /* Pods-OCLintDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMPILER_INDEX_STORE_ENABLE = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = LKB4CV3TPP;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OCLintDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.hook.OCLintDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CA6B160C2A407427005A63EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7A4876AA47FA9E0F6CEC426 /* Pods-OCLintDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ALLOW_NON_MODULAR_INCLUDES_IN_FRAMEWORK_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMPILER_INDEX_STORE_ENABLE = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = LKB4CV3TPP;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OCLintDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.test.hook.OCLintDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA6B15EC2A407422005A63EE /* Build configuration list for PBXProject "OCLintDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA6B16082A407427005A63EE /* Debug */,
+				CA6B16092A407427005A63EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA6B160A2A407427005A63EE /* Build configuration list for PBXNativeTarget "OCLintDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA6B160B2A407427005A63EE /* Debug */,
+				CA6B160C2A407427005A63EE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA6B15E92A407422005A63EE /* Project object */;
+}
